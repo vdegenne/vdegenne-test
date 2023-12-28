@@ -8,5 +8,5 @@
 		"declaration": true,
 		"emitDeclarationOnly": true
 	},
-	"include": ["lib/**/*"]
+	"include": ["lib/**/*", "index.d.ts", "sub", "index.js", "sub2"]
 }
