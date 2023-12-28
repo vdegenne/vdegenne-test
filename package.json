@@ -1,0 +1,23 @@
+{
+	"name": "@vdegenne/test",
+	"version": "1.0.2",
+	"type": "module",
+	"main": "./lib/index.js",
+	"exports": {
+		".": {
+			"import": "./lib/index.js",
+			"default": "./lib/index.js",
+			"types": "./lib/index.d.ts"
+		}
+	},
+	"scripts": {
+		"build": "tsc --pretty"
+	},
+	"devDependencies": {
+		"@vdegenne/test": "^1.0.1",
+		"typescript": "^5.3.3"
+	},
+	"files": [
+		"/lib"
+	]
+}
